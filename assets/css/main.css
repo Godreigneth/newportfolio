@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+/* ---------------------------------------------------- Colors */
+
+.bg-color-name-title {
+    background-color: #52057b;
+}
+
+.bg-color-three-reasons {
+    background-color: #ffffff;
+}
+
+.bg-color-personal-info {
+    background-color: #f6830f;
+}
+
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
+    background-color: #a20a0a;
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #f6830f;
+}
+
+.ui-menu-color-resume {
+    background-color: #a20a0a;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+
+
+
+/* ---------------------------------------------------- Special padding/margin/text */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.history-heading,
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+/* ---------------------------------------------------- Headings */
+
+header {
+  margin: 0;
+}
+
+.heading {
+  margin-left: 50px;
+}
+
+.logo {
+  background: url("../images/GodreignethLD.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.name {
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #fafafa;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #fafafa;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0;
+}
+
+#nav li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.menuitem {
+  height: 120px;
+  text-align: center;
+  padding: 0;
+}
+
+.menuitem a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  height: 120px;
+}
+
+.menuitem a i {
+  padding-top: 22px;
+  display: block;
+  color: #fafafa;
+  font-size: 26px;
+}
+
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* ---------------------------------------------------- Hover.css */
+
+.hvr-sweep-to-bottom:before {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+/* ---------------------------------------------------- Footer */
+
+footer {
+  background-color: #52057b;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+.cv-pdf i {
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: #e84610;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #e84610;
+}
+
+#footer-details {
+  padding: 20px;
+}
+
+/* -------------------------------------- Three Reasons */
+
+.three-reasons-icon {
+  font-size: 26px;
+  color: #f6830f;
+}
+
+.three-reasons-heading {
+  margin-bottom: 15px;
+}
+
+/* -------------------------------------- Personal Info */
+
+.section-heading {
+    color: #555555;
+}
+
+.personal-info-item {
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+  color: #fafafa;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+  padding-right: 8px;
+  display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+  margin: 0;
+}
+
+.personal-info-item .key {
+  width: 30%;
+  margin-right: 21px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+.personal-info-item .key p {
+  font-weight: 700;
+}
+
+.personal-info-item .value {
+  position: relative;
+  width: 60%;
+}
+
+/* ---------------------------------------------------- Work History */
+
+.history-heading {
+  color: #fafafa;
+  margin-bottom: 50px;
+}
+
+.timeline-item {
+  padding: 4em 2em 0em 2em;
+  position: relative;
+  color: #fafafa;
+  border-left: 1px solid;
+}
+
+.timeline-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item:before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item:after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.4em;
+  position: absolute;
+  left: -6px;
+  border-radius: 12px;
+  content: "";
+  background-color: #fafafa;
+}
+
+.history-items {
+  margin-bottom: 30px;
+}
+
+/* -------------------------------------- Summary / Skills / Projects / Passion & Ref. */
+
+.progress {
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
+}
+
+.progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 12px 30px 12px 15px;
+  color: #fafafa;
+  background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+  margin: 40px 20px;
+}
+
+.card-deck {
+  margin: 30px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.see-more {
+  margin: 70px 70px;
+  display: inline;
+  text-align: center;
+}
+
+/* -------------------------------------- Contact Form */
+
+.bg-color-contact {
+  background-color: #3498db;
+}
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #fafafa;
+}
+
+.contact-subheading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #fafafa;
+}
+
+.contact-highlight {
+   font-family: "Exo", sans-serif;  
+   color: #fafafa;
+}
+
+.center-form {
+  font-family: "Exo", sans-serif;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+  color: #fafafa;
+}
+
+button[type="submit"] {
+  font-family: "Exo", sans-serif; 
+  margin-top: 15px;
+  margin-bottom: 70px;
+  color: #fafafa;
+  background-color: #a20a0a;
+  border-color: #a20a0a;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+  border-color: #3e8e41;
+}
+
+/* --------------------------------------Thank You */
+
+.thankyoucontent {
+  background: #005eeb;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-style: solid;
+  border-right: medium;
+  border-left: medium;
+  border-bottom: medium;
+  border-color: #f4f4f4;
+}
+
+.contact-img {
+  border: 0;
+}
+.wrapper-1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-2 {
+  padding: 30px;
+  text-align: center;
+}
+
+.wrapper-2 h2 {
+  font-family: "Raleway", Arial Black, Sans-Serif;
+  font-size: 4em;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #fafafa;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper-2 p {
+  margin: 0px;
+  font-size: 1.3em;
+  color: #fafafa;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.go-home-button {
+  margin-top: 50px;
+  text-align: center;
+}
+.go-home {
+  background: #f6830f;
+  text-decoration: none;
+  border: none;
+  font-family: "Raleway", Arial Black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 30px;
+  margin: 50px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.go-home:hover {
+  opacity: 0.9;
+  text-decoration: none;
+  color: white;
+}
+
+/* -------------------------------------- Go Back To Up */
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #f6830f;
+  bottom: 40px;
+  right: 20px;
+  border-radius: 50%;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #fafafa;
+  font-size: 32px;
+}
+
+.gotopbtn:hover {
+  opacity: 0.9;
+  color: #fafafa;
+  border-color: #fafafa;
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
