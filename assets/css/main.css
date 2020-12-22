@@ -272,6 +272,10 @@ footer {
     color: #555555;
 }
 
+.personal-info-head {
+    color: #fafafa;
+}
+
 .personal-info-item {
   margin-bottom: 20px;
   display: block;
